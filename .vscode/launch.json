@@ -6,10 +6,10 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Debug (Launch)-BusquedaTradicional<lambdas_7c5fd22b>",
+            "name": "BusquedaTradicional",
             "request": "launch",
-            "mainClass": "BusquedaTradicional",
-            "projectName": "lambdas_7c5fd22b"
+            "mainClass": "app.BusquedaTradicional",
+            "projectName": "ocjp8-lambdas"
         }
     ]
 }
