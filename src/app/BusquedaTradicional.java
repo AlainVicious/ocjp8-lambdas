@@ -15,7 +15,9 @@ public class BusquedaTradicional {
         animales.add(new Animal("conejo", true, false));
         animales.add(new Animal("tortuga", false, true));
 
-        imprime(animales, new ChecaSiSalta());
+        // imprime(animales, new ChecaSiSalta());
+        imprime(animales, a -> a.puedeSaltar());
+        imprime(animales, a -> a.puedeNadar());
 
     }
     
